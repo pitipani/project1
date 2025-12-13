@@ -1,0 +1,74 @@
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+@font-face {
+  font-family: figtree;
+  src: url(assets/fonts/static/Figtree-Medium.ttf);
+}
+@font-face {
+    font-family: figbold;
+    src: url(assets/fonts/static/Figtree-ExtraBold.ttf);
+}
+body{
+    background-color: #F4D04E;
+    justify-items: center;
+    align-content: center;
+    display: block;
+    font-size: 16px;
+    height: 960px;
+}
+.box{
+    font-family: figtree;
+    padding: 20px;
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    width: 20%;
+    min-width: fit-content;
+    border-radius: 25px;
+    display: block;
+    box-shadow: 5px 5px;
+    margin-bottom: 6px;
+}
+.author{
+    display: flex;
+    align-items: center;
+}
+.author img{
+    width: 30px;
+    padding-right: 10px;
+}
+.foto{
+    width: fill;
+}
+.foto img{
+    border-radius: 25px;
+}
+.learning{
+    background-color: #F4D04E;
+    font-family: figbold;
+    width: 20%;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 10px;
+    border-radius: 7px;
+}
+.css{
+    font-size: 25px;
+    margin: 0px;
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease;
+}
+.css:hover{
+    color: #F4D04E;
+}
+.desc{
+    color: #6B6B6B;
+}
+
+ 
